@@ -24,8 +24,10 @@ public class Individual extends TaxPayer {
 	@Override
 	public double tax() {
 		double taxPaid = 0.0;
+		
 		if (super.getAnnual_income() < 20000.00) {
 			taxPaid = super.getAnnual_income() * 0.15;
+			
 		} else if (super.getAnnual_income() >= 20000.00) {
 			taxPaid = super.getAnnual_income() * 0.25;
 		}
