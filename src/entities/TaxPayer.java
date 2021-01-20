@@ -33,18 +33,5 @@ public abstract class TaxPayer {
 
 	public abstract double tax();
 		
-		/*	
-		if (annual_income < 20000.00) {
-				double taxPaid = annual_income * 0.15;
-			} else if (annual_income >= 20000.00) {
-				double taxPaid = annual_income * 0.25;
-			}
-			
-		} else if (type == 'c') {
-			double tax = 0.16;
-			double taxPaid = annual_income * tax;
-		}
-		*/
-
-
+		
 }
